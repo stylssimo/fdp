@@ -1,0 +1,12 @@
+com\ficus\dictionary\controller\UserController.class
+com\ficus\dictionary\repository\RoleRepository.class
+com\ficus\dictionary\domain\Entry.class
+com\ficus\dictionary\domain\Entrycategory.class
+com\ficus\dictionary\form\Message.class
+com\ficus\dictionary\controller\IndexController.class
+com\ficus\dictionary\domain\Role.class
+com\ficus\dictionary\repository\UserRepository.class
+com\ficus\dictionary\service\jpa\UserServiceImpl.class
+com\ficus\dictionary\security\provider\UserDetailsServiceImpl.class
+com\ficus\dictionary\service\UserService.class
+com\ficus\dictionary\domain\User.class

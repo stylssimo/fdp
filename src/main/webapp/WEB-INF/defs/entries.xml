@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="defaultLayout" template="/WEB-INF/views/layouts/layout_default.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/elements/user/header.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/elements/user/footer.jsp" />
+  </definition>
+  
+  <definition name="entries-add" extends="defaultLayout">
+    <put-attribute name="body" value="/WEB-INF/views/entries/add.jsp" />
+    <put-attribute name="title" value="Add Entries" />
+  </definition>
+  
+  <definition name="entries-search" extends="defaultLayout">
+    <put-attribute name="body" value="/WEB-INF/views/entries/search.jsp" />
+    <put-attribute name="title" value="Search Entry" />
+  </definition>
+</tiles-definitions>
